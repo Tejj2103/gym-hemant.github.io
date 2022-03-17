@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym website</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+<style>
+    /* css Reset */
+    body {
+        font-family: 'baloo Bhaijaan', cursive;
+        color: white;
+        margin: 0;
+        padding: 0;
+        background: url('img/bg.jpg');
+        height: 1200px;
+    }
+
+    .left img {
+        width: 80px;
+        height: 70px;
+    }
+
+    .left div {
+        line-height: 0px;
+        text-align: center;
+        font-size: 15px;
+        color: orange;
+    }
+
+    .left {
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 25px 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'baloo Bhaijaan', cursive;
+        margin: 0px 10px;
+        color: white;
+        background: black;
+        padding: 4px 14px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(70, 65, 65);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 50px;
+        padding: 50px 50px;
+        width: 33%;
+        border-radius: 10px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 7px;
+        font-family: 'baloo Bhaijaan', cursive;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        margin: 20px auto;
+        display: block;
+        width: 63%;
+
+    }
+
+    footer {
+
+        text-align: center;
+        margin-top: 650px;
+        padding: 30px;
+        /* margin: 23px; */
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Join the best gym of jaipur now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+
+
+        </form>
+        </form>
+        </form>
+        </form>
+        <button class="btn">Submit</button>
+    </div>
+
+    <footer>
+        copyright &copy; sportmania009
+    </footer>
+</body>
+
+</html>
